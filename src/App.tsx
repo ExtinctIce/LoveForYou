@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import image2 from "./assets/MainPageIcons/woman.jpg";
 import image from "./assets/MainPageIcons/love.jpg";
 import image3 from "./assets/MainPageIcons/genshin.jpg";
@@ -136,12 +136,6 @@ const memories: Memory[] = [
 ];
 
 export function MainPage() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-100 to-purple-100 overflow-hidden relative">
       {/* Floating Hearts */}
